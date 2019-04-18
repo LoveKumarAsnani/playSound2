@@ -1,0 +1,518 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.net.*;
+import java.applet.*;
+class PlaySound implements ActionListener{
+
+	Frame win=new Frame();
+	
+	ImageIcon icon1=new ImageIcon("e:\\aaa.jpg");
+	ImageIcon icon2=new ImageIcon("e:\\bbb.jpg");
+	ImageIcon icon3=new ImageIcon("e:\\ccc.jpg");
+	ImageIcon icon4=new ImageIcon("e:\\cc.jpg");
+	ImageIcon icon5=new ImageIcon("e:\\eee.jpg");
+	ImageIcon icon6=new ImageIcon("e:\\fff.jpg");
+	ImageIcon icon7=new ImageIcon("e:\\ggg.jpg");
+	ImageIcon icon8=new ImageIcon("e:\\hhh.jpg");
+	ImageIcon icon9=new ImageIcon("e:\\iii.jpg");
+	ImageIcon icon10=new ImageIcon("e:\\jjj.jpg");
+	ImageIcon icon11=new ImageIcon("e:\\kkk.jpg");
+	ImageIcon icon12=new ImageIcon("e:\\lll.jpg");
+	ImageIcon icon13=new ImageIcon("e:\\mmm.jpg");
+	ImageIcon icon14=new ImageIcon("e:\\nnn.jpg");
+	ImageIcon icon15=new ImageIcon("e:\\ooo.jpg");
+	ImageIcon icon16=new ImageIcon("e:\\ppp.jpg");
+	ImageIcon icon17=new ImageIcon("e:\\qqq.jpg");
+	ImageIcon icon18=new ImageIcon("e:\\rrr.jpg");
+	ImageIcon icon19=new ImageIcon("e:\\sss.jpg");
+	ImageIcon icon20=new ImageIcon("e:\\ttt.jpg");
+	ImageIcon icon21=new ImageIcon("e:\\uuu.jpg");
+	ImageIcon icon22=new ImageIcon("e:\\vvv.jpg");
+	ImageIcon icon23=new ImageIcon("e:\\www.jpg");
+	ImageIcon icon24=new ImageIcon("e:\\xxx.jpg");
+	ImageIcon icon25=new ImageIcon("e:\\yyy.jpg");
+	ImageIcon icon26=new ImageIcon("e:\\zzz.jpg"); 
+	
+	
+	
+	JButton b=new JButton();
+	JButton b1=new JButton("A");
+	JButton b2=new JButton("B");
+	JButton b3=new JButton("C");
+	JButton b4=new JButton("D");
+	JButton b5=new JButton("E");
+	JButton b6=new JButton("F");
+	JButton b7=new JButton("G");
+	JButton b8=new JButton("H");
+	JButton b9=new JButton("I");
+	JButton b10=new JButton("J");
+	JButton b11=new JButton("K");
+	JButton b12=new JButton("L");
+	JButton b13=new JButton("M");
+	JButton b14=new JButton("N");
+	JButton b15=new JButton("O");
+	JButton b16=new JButton("P");
+	JButton b17=new JButton("Q");
+	JButton b18=new JButton("R");
+	JButton b19=new JButton("S");
+	JButton b20=new JButton("T");
+	JButton b21=new JButton("U");
+	JButton b22=new JButton("V");
+	JButton b23=new JButton("W");
+	JButton b24=new JButton("X");
+	JButton b25=new JButton("Y");
+	JButton b26=new JButton("Z");
+	JButton button=new JButton();
+	
+	Font f1=new Font("Arial",Font.BOLD,15);
+	Font f2=new Font("Arial",Font.BOLD,25);
+	PlaySound()
+	{
+		
+		
+		win.setLayout(null);
+		win.show();
+	
+		win.add(button);
+		
+		win.add(b);
+		win.add(b1);
+		win.add(b2);
+		win.add(b3);
+		win.add(b4);
+		win.add(b5);
+		win.add(b6);
+		win.add(b7);
+		win.add(b8);
+		win.add(b9);
+		win.add(b10);
+		win.add(b11);
+		win.add(b12);
+		win.add(b13);
+		win.add(b14);
+		win.add(b15);
+		win.add(b16);
+		win.add(b17);
+		win.add(b18);
+		win.add(b19);
+		win.add(b20);
+		win.add(b21);
+		win.add(b22);
+		win.add(b23);
+		win.add(b24);
+		win.add(b25);
+		win.add(b26);
+		
+		b.setFont(f2);
+		b1.setFont(f1);
+		b2.setFont(f1);
+		b3.setFont(f1);
+		b4.setFont(f1);
+		b5.setFont(f1);
+		b6.setFont(f1);
+		b7.setFont(f1);
+		b8.setFont(f1);
+		b9.setFont(f1);
+		b10.setFont(f1);
+		b11.setFont(f1);
+		b12.setFont(f1);
+		b13.setFont(f1);
+		b14.setFont(f1);
+		b15.setFont(f1);
+		b16.setFont(f1);
+		b17.setFont(f1);
+		b18.setFont(f1);
+		b19.setFont(f1);
+		b20.setFont(f1);
+		b21.setFont(f1);
+		b22.setFont(f1);
+		b23.setFont(f1);
+		b24.setFont(f1);
+		b25.setFont(f1);
+		b26.setFont(f1);
+		
+		
+		win.setBounds(0,0,1000,650);
+		
+		button.setBounds(230,20,470,250);
+		
+		b.setBounds(230,290,470,50);
+		
+		
+		
+		b1.setBounds(230,350,50,50);
+		b2.setBounds(290,350,50,50);
+		b3.setBounds(350,350,50,50);
+		b4.setBounds(410,350,50,50);
+		b5.setBounds(470,350,50,50);
+		b6.setBounds(530,350,50,50);
+		b7.setBounds(590,350,50,50);
+		b8.setBounds(650,350,50,50);
+		
+		b9.setBounds(230,420,50,50);
+		b10.setBounds(290,420,50,50);
+		b11.setBounds(350,420,50,50);
+		b12.setBounds(410,420,50,50);
+		b13.setBounds(470,420,50,50);
+		b14.setBounds(530,420,50,50);
+		b15.setBounds(590,420,50,50);
+		b16.setBounds(650,420,50,50);
+		
+		b17.setBounds(230,490,50,50);
+		b18.setBounds(290,490,50,50);
+		b19.setBounds(350,490,50,50);
+		b20.setBounds(410,490,50,50);
+		b21.setBounds(470,490,50,50);
+		b22.setBounds(530,490,50,50);
+		b23.setBounds(590,490,50,50);
+		b24.setBounds(650,490,50,50);
+		
+		
+		b25.setBounds(410,560,50,50);
+		b26.setBounds(470,560,50,50);
+		
+		b1.addActionListener(this);
+		b2.addActionListener(this);
+		b3.addActionListener(this);
+		b4.addActionListener(this);
+		b5.addActionListener(this);
+		b6.addActionListener(this);
+		b7.addActionListener(this);
+		b8.addActionListener(this);
+		b9.addActionListener(this);
+		b10.addActionListener(this);
+		b11.addActionListener(this);
+		b12.addActionListener(this);
+		b13.addActionListener(this);
+		b14.addActionListener(this);
+		b15.addActionListener(this);
+		b16.addActionListener(this);
+		b17.addActionListener(this);
+		b18.addActionListener(this);
+		b19.addActionListener(this);
+		b20.addActionListener(this);
+		b21.addActionListener(this);
+		b22.addActionListener(this);
+		b23.addActionListener(this);
+		b24.addActionListener(this);
+		b25.addActionListener(this);
+		b26.addActionListener(this);
+		
+		
+	}
+	
+	public void actionPerformed(ActionEvent e){
+		
+		if(b1==e.getSource())
+		{
+			
+			b.setText("A for Apple");
+			button.setIcon(icon1);
+			
+			//playaSound();
+			try{
+			URL url=new URL("file:\\e:\\ap.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+		}
+		if(b2==e.getSource())
+		{
+			
+			b.setText("B for Ball");
+			
+			button.setIcon(icon2);
+			try{
+			URL url1=new URL("file:\\e:\\ba.wav");
+			AudioClip clip1=Applet.newAudioClip(url1);
+			clip1.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+		
+			
+		}
+		if(b3==e.getSource())
+		{
+			
+			b.setText("C for Cat");
+			
+			button.setIcon(icon3);
+			try{
+			URL url=new URL("file:\\e:\\ca.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+		}
+		if(b4==e.getSource())
+		{
+			
+			b.setText("D for Dog");
+			button.setIcon(icon4);
+			
+			try{
+			URL url=new URL("file:\\e:\\do.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+		}
+		if(b5==e.getSource())
+		{
+			
+			b.setText("E for Egg");
+			button.setIcon(icon5);
+			
+			try{
+			URL url=new URL("file:\\e:\\eg.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+		}
+		if(b6==e.getSource())
+		{
+			
+			b.setText("F for Fish");
+			button.setIcon(icon6);
+			
+			try{
+			URL url=new URL("file:\\e:\\fi.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+		
+		}
+		if(b7==e.getSource())
+		{
+			
+			b.setText("G for Grappes");
+			button.setIcon(icon7);
+			
+			try{
+			URL url=new URL("file:\\e:\\gr.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+		
+		}
+		if(b8==e.getSource())
+		{
+			
+			b.setText("H for Hockey");
+			button.setIcon(icon8);
+			
+			try{
+			URL url=new URL("file:\\e:\\ho.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+		}
+		if(b9==e.getSource())
+		{
+			
+			b.setText("I for Ink");
+			button.setIcon(icon9);
+			
+			try{
+			URL url=new URL("file:\\e:\\in.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+			
+		}
+		if(b10==e.getSource())
+		{
+			
+			b.setText("J for Jug");
+			button.setIcon(icon10);
+			
+			try{
+			URL url=new URL("file:\\e:\\ju.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+			
+		}
+		if(b11==e.getSource())
+		{
+			
+			b.setText("K for Kite");
+			button.setIcon(icon11);
+			
+			try{
+			URL url=new URL("file:\\e:\\ki.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+		}
+		if(b12==e.getSource())
+		{
+			
+			b.setText("L for Lamp");
+			button.setIcon(icon12);
+			
+			try{
+			URL url=new URL("file:\\e:\\la.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+			
+		}
+		if(b13==e.getSource())
+		{
+			
+			b.setText("M for Mango");
+			button.setIcon(icon13);
+			
+			try{
+			URL url=new URL("file:\\e:\\ma.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+		}
+		if(b14==e.getSource())
+		{
+			
+			b.setText("N for Nose");
+			button.setIcon(icon14);
+			try{
+			URL url=new URL("file:\\e:\\no.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+		}
+		if(b15==e.getSource())
+		{
+			
+			b.setText("O for Orange");
+			button.setIcon(icon15);
+			
+			try{
+			URL url=new URL("file:\\e:\\or.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+			
+		}
+		if(b16==e.getSource())
+		{
+			
+			b.setText("P for pen");
+			button.setIcon(icon16);
+			
+			try{
+			URL url=new URL("file:\\e:\\pe.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+			
+		}
+		if(b17==e.getSource())
+		{
+			
+			b.setText("Q for Queen");
+			button.setIcon(icon17);
+			
+			try{
+			URL url=new URL("file:\\e:\\qu.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+			
+		}
+		if(b18==e.getSource())
+		{
+			
+			b.setText("R for Rose");
+			button.setIcon(icon18);
+			
+			try{
+			URL url=new URL("file:\\e:\\ro.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception ex){ex.printStackTrace();}
+			
+		}
+		if(b19==e.getSource())
+		{
+			
+			b.setText("S for Sun");
+			button.setIcon(icon19);
+			
+		}
+		if(b20==e.getSource())
+		{
+			
+			b.setText("T for Tongue");
+			button.setIcon(icon20);
+			
+		}
+		if(b21==e.getSource())
+		{
+			
+			b.setText("U for Umbrella");
+			button.setIcon(icon21);
+			
+		}
+		if(b22==e.getSource())
+		{
+			
+			b.setText("V for Ven");
+			button.setIcon(icon22);
+			
+		}
+		if(b23==e.getSource())
+		{
+			
+			b.setText("W for Watch");
+			button.setIcon(icon23);
+			
+		}
+		if(b24==e.getSource())
+		{
+			
+			b.setText("x for xylophone");
+			button.setIcon(icon24);
+			
+		}
+		if(b25==e.getSource())
+		{
+			
+			b.setText("Y for Yoyo");
+			button.setIcon(icon25);
+		}
+		if(b26==e.getSource())
+		{
+			
+			b.setText("Z for Zebra");
+			button.setIcon(icon26);
+		}
+		
+	}
+	/*private void playaSound(){
+		try{
+			URL url=new URL("file:\\e:\\Apii.wav");
+			AudioClip clip=Applet.newAudioClip(url);
+			clip.play();
+		}catch(Exception e){e.printStackTrace();}
+	}*/
+	
+	public static void main(String args[]){
+		
+		PlaySound ob=new PlaySound();
+	}
+
+}
